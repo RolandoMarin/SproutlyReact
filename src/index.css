@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(231,237,222) !important;
+  }
+
+/* Wrapper for all content */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content grows to fill space */
+.main-content {
+  flex: 1;
+}
+
+/* Footer styling */
+footer {
+  background-color: #172B17;
+  color:white;
+}
